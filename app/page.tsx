@@ -1,20 +1,20 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <h1 className="text-center mt-12 font-bold"> UTKU BAYRAKTAROĞLU </h1>
-
-      <div className="flex justify-around text-white font-bold text-lg mt-12">
+      <h1 className="font-bold text-lg text-center uppercase py-4">
+        utku bayraktaroğlu
+      </h1>
+      <div className="flex items-center justify-around text-white capitalize font-bold">
         <div className="rounded-md w-40 h-40 flex items-center justify-center bg-green-400">
-          NextJs Özellikleri
+          <Link href="/nextjs"> nextjs </Link>
         </div>
         <div className="rounded-md w-40 h-40 flex items-center justify-center bg-blue-400">
-          Algoritma
+          algoritma
         </div>
-        <div className="rounded-md w-40 h-40 flex items-center justify-center bg-orange-500">
-          Css
-        </div>
+
         <div className="rounded-md w-40 h-40 flex items-center justify-center bg-teal-400">
-          SCSS
+          sCSS
         </div>
       </div>
     </>

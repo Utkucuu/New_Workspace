@@ -1,13 +1,10 @@
-export default function NextjsLayout({
+export default function NextjsWithCss({
   children, // will be a page or nested layout
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <section>
-      {/* Include shared UI here e.g. a header or sidebar */}
-      <nav></nav>
-
+    <section className="bg-sky-300 flex-col justify-center text-center">
       {children}
     </section>
   );

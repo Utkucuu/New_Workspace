@@ -11,9 +11,9 @@ function NextjsWithCss() {
   let value: string = "true";
 
   return (
-    <div className="flex-col justify-center text-center">
+    <div className="">
       <h1 className="mt-12 font-bold">Nextjs ile css uygulama yöntemleri</h1>
-      <div className=" flex gap-5 justify-center ">
+      <div className="flex gap-5 justify-center ">
         <Image
           src={
             "https://i.dunya.com/storage/files/images/2023/07/24/peugeot-508-yeni-SZOp_cover.jpg"
