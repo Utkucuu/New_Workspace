@@ -1,6 +1,7 @@
 import styles from "@/app/ui/nextjs/css/btn.module.css";
 import PrimaryBtn from "@/app/ui/nextjs/css/PrimaryBtn";
 import clsx from "clsx";
+import Image from "next/image";
 // import { useState } from "react";
 function NextjsWithCss() {
   // const [count, setCount] = useState<number>(1);
@@ -10,10 +11,29 @@ function NextjsWithCss() {
   let value: string = "true";
 
   return (
-    <div className=" ms-20">
-      <h1 className="text-center mt-12 font-bold">
-        Nextjs ile css uygulama yöntemleri
-      </h1>
+    <div className="flex-col justify-center text-center">
+      <h1 className="mt-12 font-bold">Nextjs ile css uygulama yöntemleri</h1>
+      <div className=" flex gap-5 justify-center ">
+        <Image
+          src={
+            "https://i.dunya.com/storage/files/images/2023/07/24/peugeot-508-yeni-SZOp_cover.jpg"
+          }
+          alt="peugeot-508"
+          width={500}
+          height={500}
+          quality={100}
+        />
+
+        <Image
+          src={
+            "https://i.dunya.com/storage/files/images/2023/07/24/peugeot-508-yeni-SZOp_cover.jpg"
+          }
+          alt="peugeot-508"
+          width={500}
+          height={500}
+          quality={10}
+        />
+      </div>
       <h2>Yöntem 1 - Module css</h2>
       <button className={styles.dangerBtn}>Module css</button>
 
