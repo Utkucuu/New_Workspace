@@ -11,7 +11,7 @@ function NextjsWithCss() {
   let value: string = "true";
 
   return (
-    <div className="">
+    <div className="text-center">
       <h1 className="mt-12 font-bold">Nextjs ile css uygulama yöntemleri</h1>
       <div className="flex gap-5 justify-center ">
         <Image
@@ -34,6 +34,7 @@ function NextjsWithCss() {
           quality={10}
         />
       </div>
+
       <h2>Yöntem 1 - Module css</h2>
       <button className={styles.dangerBtn}>Module css</button>
 

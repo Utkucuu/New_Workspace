@@ -8,7 +8,8 @@ export default function NextjsLayout({
       <h1 className="text-center py-4 font-bold text-lg">
         nextjs ile denemeler
       </h1>
-      <div className="flex justify-around text-white font-bold ">
+
+      <div className="grid grid-rows-2 grid-flow-col place-content-center text-white font-bold gap-5">
         {children}
       </div>
     </section>
